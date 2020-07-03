@@ -32,25 +32,6 @@ img {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px;
-  /**
-  background-color: #941044;
-  border: none;
-  color: white;
-  padding: 20px;
-border-radius: 12px;
-font-size: 16px;
- text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-  margin: 11px;
-
- display: flex;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  margin: 4px 2px;
-
-   **/
 }
 
 .button_left_right {
@@ -86,13 +67,13 @@ font-size: 16px;
 }
 
 .table_buttons {
-  margin-top: 15%;
+  margin-top: 5%;
 
 }
 
 .rectangle {
   height: 30%;
-  width: 60%;
+  width: 25%;
   background-color: #555;
   margin-top:  10%;
 }
@@ -175,7 +156,7 @@ font-size: 16px;
   background: #fff;
   color: #717171;
   border-bottom: 1px solid #e0e4e8;
-
+  align-content: center;
 }
 
 .wrapper .main_content .info{
@@ -184,7 +165,7 @@ font-size: 16px;
   line-height: 25px;
   display: flex;
   align-content: center;
-  margin-top: 10%;
+
   }
 
 .wrapper .main_content .info div {
