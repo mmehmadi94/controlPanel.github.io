@@ -74,7 +74,7 @@ img {
   position: relative;
 }
 
-@media screen and (max-width:250px){
+@media screen and (max-width:200px){
   .wrapper .sidebar{
     width:100%;
   }
