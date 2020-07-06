@@ -76,8 +76,6 @@ img {
 
 @media screen and (max-width:200px){
   .wrapper .sidebar{
-    float: left;
-    padding: 0;
     width:100%;
   }
 }
