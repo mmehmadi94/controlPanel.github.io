@@ -9,23 +9,75 @@
 	<title>Robot Control Panel</title>
 	<link rel="stylesheet" href="styles.css">
 	<script src ="https://kit.fontawesome.com/b99e675b6e.js"> </script>
+
+<script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "6e9bc585-49f9-4e7f-8f21-26f8243b5145", // The ID of this integration.
+      region: "eu-gb", // The region your integration is hosted in.
+      serviceInstanceID: "bd47fc86-84b5-46fa-ba8f-6a9eb48262c2", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
 </head>
 
-	<frameset cols="9% , 70%" border="0">
+	<body>
+  <div class="wrapper">
 
 		<!-- Navigation side -->
-	<frame src="nav.html">
+		<div class="sidebar">
 
-	<!-- Main Content -->
-  <frameset rows = "5% , 35%">
+				<h2><img src="logo.png" alt="Smart Methods logo"></h2>
 
-		<frame src="header.html" />
-	  <frame src="left_Content.html"/>
+				<ul>
+						<li><a href="#"><i class="fas fa-home"></i>Home</a></li>
+						<li><a href="#"><i class="fas fa-address-card"></i>About Robot</a></li>
+						<li><a href="#"><i class="fas fa-project-diagram"></i>Control Panel</a></li>
+						<li><a href="#"><i class="fas fa-address-book"></i>Contact</a></li>
+				</ul>
 
-	</frameset>
+				<div class="social_media">
+					<a href="https://twitter.com/smart_methods"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.instagram.com/smartmethods/"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+			</div>
+		</div>
+		 	<!-- Main Content -->
+      <div class="main_content">
+
+		  <div class="header" >Welcome!! Have a nice day.</div>
 
 
-	</frameset>
+ 		<div class="info">
+			<h2>Control Panel</h2>
 
+
+ 					<table class="table_buttons">
+ 						<tr>
+ 							<td> </td>
+ 							<td><input class="buttons" type="submit" value="forward" > </td>
+ 						</tr>
+
+ 				  <tr>
+             <td><input class="buttons" type="submit" value="left" > </td>
+             <td><input class="buttons" type="submit" value="pause" style="background-color: #941044;"> </td>
+             <td> <input class="buttons" type="submit" value="right" name="right" ></td>
+           </tr>
+
+ 					<tr>
+ 						<td></td>
+ 						<td> <input class="buttons" type="submit" value="backward" > </td>
+ 					</tr>
+          </table>
+
+         </div>
+     </div>
+
+ </div>
+ </body>
 
 </html>
